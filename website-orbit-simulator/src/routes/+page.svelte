@@ -175,7 +175,7 @@
         onClick: (event, elements) => {
           if (elements.length > 0) {
             const clickedElement = elements[0];
-            const xScale = distanceCanvas.scales.x;
+            const xScale = charts[1].scales['x'];
             const clickedDay = xScale.getValueForPixel(clickedElement.element.x);
             currentDay = Math.round(clickedDay);
             updatePosition(currentDay);

@@ -271,6 +271,7 @@
 
   .input-container {
     justify-content: space-between;
+    gap: 20px; /* Add spacing between the input boxes */
   }
 
   .input-box {
